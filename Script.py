@@ -33,6 +33,8 @@ def roman_to_int(numeral):
         elif i == 'C':
             final_answer += 100
         elif i == 'L':
+            final_answer += 50
+        elif i == 'X':
             final_answer += 10
         elif i == 'V':
             final_answer += 5
